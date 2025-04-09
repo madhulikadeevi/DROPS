@@ -1,0 +1,1 @@
+lick</button> <br/> <p><strong>{{msg}}</strong></p><br/><mat-form-field class="example-full-width"><input matInput placeholder="user" [(ngModel)]="user" name="user" required></mat-form-field><mat-form-field class="example-full-width"><input matInput placeholder="pass" [(ngModel)]="pass" name="pass" required></mat-form-field><button (click)="login()">Click</button><br/>

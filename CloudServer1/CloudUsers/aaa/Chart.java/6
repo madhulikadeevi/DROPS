@@ -1,0 +1,6 @@
+rosshairVisible(true);
+    localCategoryPlot.setRangeCrosshairPaint(Color.blue);
+    NumberAxis localNumberAxis = (NumberAxis)localCategoryPlot.getRangeAxis();
+    localNumberAxis.setStandardTickUnits(NumberAxis.createIntegerTickUnits());
+    BarRenderer localBarRenderer = (BarRenderer)localCategoryPlot.getRenderer();
+    localBarRenderer.se

@@ -1,0 +1,14 @@
+/BODY></HTML>".toUpperCase());
+	l1.setFont(this.f1);
+    l1.setForeground(new Color(125,254,120));
+    p1.add(l1);
+    p1.setBackground(new Color(100,30,40));
+
+    f2 = new Font("Courier New",Font.BOLD,14);
+	
+	p2 = new JPanel();
+	p2.setLayout(null);
+
+	l1 = new JLabel("Username");
+	l1.setFont(f2);
+	l1.setBounds(100,

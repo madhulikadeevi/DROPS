@@ -1,0 +1,8 @@
+ 'Something went wrong...');
+            },
+            () => {
+	        	 alert(this.model.username+" $$$ "+this.model.password);
+                this.toasterService.pop('success', 'Complete', 'Getting all values complete');
+                this.slimLoadingBarService.complete();
+            });
+        if (this.model.username == "admin" && this.model.password =

@@ -1,0 +1,14 @@
+er(){
+		public void actionPerformed(ActionEvent ae){
+			setVisible(false);
+			users.setVisible(true);
+		}
+	});
+	
+	getContentPane().add(p1, "North");
+    getContentPane().add(p2, "Center");
+}
+public void login(){
+	String user = tf1.getText();
+	String pass = tf2.getText();
+	if(user == null || user.trim().length() <= 

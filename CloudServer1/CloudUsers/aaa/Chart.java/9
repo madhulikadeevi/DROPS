@@ -1,0 +1,7 @@
+ategoryAxis = localCategoryPlot.getDomainAxis();
+    localCategoryAxis.setCategoryLabelPositions(CategoryLabelPositions.createUpRotationLabelPositions(0.5235987755982988D));
+    return localJFreeChart;
+}
+public static JPanel createDemoPanel(){
+	JFreeChart localJFreeChart = createChart(createDataset());
+	return new ChartPanel(localJFreeChart

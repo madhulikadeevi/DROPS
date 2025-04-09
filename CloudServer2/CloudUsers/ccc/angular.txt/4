@@ -1,0 +1,15 @@
+ular/core';
+
+@Component({
+  selector: 'app-hello-world',
+  templateUrl: './hello-world/hello-world.component.html',
+  styleUrls: ['./hello-world/hello-world.component.css']
+})
+export class AppComponent {
+  title = 'hello-world-angular';
+}
+
+working one
+@Component({
+  selector: 'hello',
+  template: '<h1>Hello {{name}}!</h1><br/><button (click)="clickMe()">C

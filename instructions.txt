@@ -1,0 +1,19 @@
+sudo yum update -y 
+
+sudo yum install -y mariadb-server
+
+sudo systemctl enable mariadb
+
+sudo systemctl start mariadb
+
+sudo mysql_secure_installation
+
+sudo su
+yum install java-devel
+
+sudo rm -r cd to delete direcrory called cd
+
+sudo chmod a+rwx CloudServer1 (to give full permission to amazon folder)
+
+
+copy to amazon upto ec2

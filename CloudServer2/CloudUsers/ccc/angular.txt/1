@@ -1,0 +1,10 @@
+n here; Then refresh your application, and your API requests should now work! The plugin definitely addresses the issue. However, this fix only applies to your own machine. In local development, it’s fine to have a plugin installed that can help you get past the error.
+
+
+C:\Python27\
+C:\Python27\Scripts
+
+set above python path for angular
+
+
+https://dzone.com/ar

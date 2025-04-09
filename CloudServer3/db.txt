@@ -1,0 +1,25 @@
+create database medical_sensor;
+use medical_sensor;
+
+create table access(username varchar(50),password varchar(50),access_control varchar(50));
+
+create database server1;
+use server1;
+create table patient_data(patient_id varchar(50),temperature blob,BP  blob,heart_rate  blob,date_time timestamp);
+
+create database server2;
+use server2;
+create table patient_data(patient_id varchar(50),temperature blob,BP  blob,heart_rate  blob,date_time timestamp);
+
+create database server3;
+use server3;
+create table patient_data(patient_id varchar(50),temperature blob,BP  blob,heart_rate  blob,date_time timestamp);
+
+use server1;
+delete from patient_data;
+
+use server2;
+delete from patient_data;
+
+use server3;
+delete from patient_data;

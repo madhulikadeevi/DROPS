@@ -1,0 +1,9 @@
+create database drops;
+use drops;
+
+create table users(username varchar(50),password varchar(50),email varchar(50));
+
+
+
+
+

@@ -1,0 +1,9 @@
+	super(paramString);
+	
+	JPanel localJPanel = createDemoPanel();
+    localJPanel.setPreferredSize(new Dimension(800, 370));
+    JScrollPane jsp = new JScrollPane(localJPanel);
+	setContentPane(localJPanel);
+}
+private static CategoryDataset createDataset(){
+	DefaultCategoryDataset localDefaultCategoryDataset = new DefaultCategoryDataset();

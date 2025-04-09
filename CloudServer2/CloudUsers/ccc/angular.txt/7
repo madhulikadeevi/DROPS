@@ -1,0 +1,11 @@
+
+
+login() {
+        this.loading = true;
+	this.slimLoadingBarService.start();
+
+        this.dataService.add(this.model.username,this.model.username)
+            .subscribe((data: any[]) => this.values = data,
+            error => () => {
+	        alert(this.model.username+" 333$$$ "+this.model.password);
+                this.toasterService.pop('error', 'Damn',
